@@ -8,7 +8,23 @@
 <body>
 
     Primer template!!
-    
+
+    <p style="color:red">Mi nombre es: {{nombre}}</p>
+    <p style="color:rgb(20,100,100)">Mi apellido es: {{apellido}}</p>
+
+    <h3>Estas son mis notas del Curso: </h3>
+
+    <p>
+    {% for n in notas %}
+
+        {% if n < 4 %}
+            <p style="color:rgb(200,0,0)"> NOTA MALA {{n}}</p>
+        {% else %} <p style="color:rgb(0,200,0)"> NOTA BUENA {{n}}</p>
+        {% endif %}
+
+    {% endfor %}
+    </p>
+
     
 </body>
 </html>
