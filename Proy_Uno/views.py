@@ -6,7 +6,7 @@ def saludo(request):
 
 def probandoTemplate(self):
     
-    miHtml = open("/home/finnegans/Escritorio/Emiliano/PROYECTO1/Proy_Uno/plantillas/template1.html")
+    miHtml = open("/home/finnegans/Escritorio/Emiliano/PROYECTO1/Proy_Uno/Proy_Uno/plantillas/template1.html")
     
     plantilla = Template(miHtml.read())
     
