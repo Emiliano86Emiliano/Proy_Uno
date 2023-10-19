@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Proy_Uno.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["/home/finnegans/Escritorio/Emiliano/PROYECTO1/Proy_Uno/Proy_Uno/plantillas/template1.html"],
+        'DIRS': ["/home/finnegans/Escritorio/Emiliano/PROYECTO1/Proy_Uno/Proy_Uno/plantillas/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

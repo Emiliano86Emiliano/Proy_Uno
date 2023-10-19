@@ -12,16 +12,11 @@ def probandoTemplate(self):
     
     listaDeNotas = [2,2,3,7,2,5]
     
-    diccionario = {"nombre":nom, "apellido":ap, "notas":listaDeNotas}
-    
+    diccionario = {"nombre":nom, "apellido":ap, "notas":listaDeNotas}    
     # miHtml = open("/home/finnegans/Escritorio/Emiliano/PROYECTO1/Proy_Uno/Proy_Uno/plantillas/template1.html")
-    
-    # plantilla = Template(miHtml.read())
-    
-    # miHtml.close()
-    
-    # miContexto = Context(diccionario)
-    
+    # plantilla = Template(miHtml.read())    
+    # miHtml.close()    
+    # miContexto = Context(diccionario)    
     # documento = plantilla.render(miContexto)    
 
     plantilla = loader.get_template('template1.html')
